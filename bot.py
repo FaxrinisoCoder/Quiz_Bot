@@ -19,7 +19,7 @@ load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-# WEB_APP_URL = os.getenv("WEB_APP_URL")
+WEB_APP_URL = os.getenv("WEB_APP_URL")
 
 
 async def start(
